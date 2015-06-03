@@ -1,0 +1,8 @@
+# Roles
+- name: packer
+  hosts: packer
+  user: root
+  roles:
+    - packer
+  vars:
+    - packer_version: '0.7.5'

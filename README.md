@@ -13,3 +13,15 @@ then you can call the playbooks directly like so
 ```
 ansible-playbook kvmhost.yml
 ```
+## packer
+hosts inventory file
+```
+packerhost ansible_ssh_port=$PORT ansible_ssh_host=$IP_ADDRESS ansible_ssh_user=root
+
+[packer]
+packerhost
+```
+directly:
+```
+ansible-playbook packer.yml
+```
