@@ -13,4 +13,3 @@ then you can call the playbooks directly like so
 ```
 ansible-playbook kvmhost.yml
 ```
-or use `make server`
